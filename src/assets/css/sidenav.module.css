@@ -38,3 +38,34 @@
     font-size: 10px;
     font-weight: 700;
 }
+
+/* sidenav.module.css */
+
+.navbtns {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .navButton {
+    margin-bottom: 10px;
+    width: 14vw;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none; /* Remove default link underline */
+    color: #333; /* Adjust text color */
+  }
+  
+  .navButton:hover {
+    background-color: #6aa8fa;
+  }
+  
+  
+  
