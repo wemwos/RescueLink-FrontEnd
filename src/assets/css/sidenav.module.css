@@ -1,47 +1,47 @@
+/* sidenav.module.css */
+
 .sidenav {
-    width: 100%; 
+    width: 100%;
     height: 100%;
     max-width: 500px;
     overflow-y: auto;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start; 
-    align-items: center; 
-}
-
-.sidenavEmblem {
-    margin-top: 30px; 
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .sidenavEmblem {
+    margin-top: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.emblemCircle {
+  }
+  
+  .emblemCircle {
     width: 150px;
-    height: 150px; 
-    background-color: #EEEEEE;
-    border-radius: 50%; 
+    height: 150px;
+    background-color: #eeeeee;
+    border-radius: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-.DeptIcon {
+  }
+  
+  .DeptIcon {
     height: 70px;
     width: auto;
     max-width: 100%;
-}
-
-.DeptName {
+  }
+  
+  .DeptName {
     margin-top: 10px;
     font-size: 10px;
     font-weight: 700;
-}
-
-/* sidenav.module.css */
-
-.navbtns {
+  }
+  
+  .navbtns {
     margin-top: 50px;
     display: flex;
     flex-direction: column;
@@ -50,22 +50,28 @@
   
   .navButton {
     margin-bottom: 10px;
-    width: 14vw;
+    width: 12vw;
     padding: 10px 20px;
-    background-color: #f0f0f0;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    text-decoration: none; /* Remove default link underline */
-    color: #333; /* Adjust text color */
-  }
+    justify-content: space-evenly;
+    text-decoration: none;
+    color: #333;
+  } 
+
+  .navButton:not(:last-child) {
+    margin-bottom: 20px; 
+}
   
   .navButton:hover {
-    background-color: #6aa8fa;
+    background-color: #73a4f8;
   }
   
+  .activeNavButton {
+    background-color: #6aa8fa;
+  }
   
   
