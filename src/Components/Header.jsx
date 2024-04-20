@@ -10,7 +10,7 @@ function Header() {
       className={`${styles.navbar} d-flex justify-content-between`}
       style={{ 
         background: 'linear-gradient(to right, #E9F6FD, #45AADB)',
-        padding: '15px 20px', // Add padding to mimic Navbar padding
+        padding: '15px 20px', 
       }}
     >
       <div className="d-flex align-items-center">
@@ -28,7 +28,7 @@ function Header() {
             id="dropdown-basic"
             style={{
               backgroundColor: 'transparent',
-              border: '1px solid #47B8F8',
+              border: '1px solid #5ea4ff',
             }}
           >
             <>
@@ -38,7 +38,7 @@ function Header() {
           </Dropdown.Toggle>
 
           <Dropdown.Menu>
-            <Dropdown.Item href="account-settings" className={styles.dropdownItem}>Account Settings</Dropdown.Item>
+            <Dropdown.Item href="account-settings" className={styles.dropdownItem}>Settings</Dropdown.Item>
             <Dropdown.Divider />
             <Dropdown.Item href="/" className={styles.dropdownItem}>Logout</Dropdown.Item>
           </Dropdown.Menu>
