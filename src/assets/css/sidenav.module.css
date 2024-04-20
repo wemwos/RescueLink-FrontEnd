@@ -1,0 +1,40 @@
+.sidenav {
+    width: 100%; 
+    height: 100%;
+    max-width: 500px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    align-items: center; 
+}
+
+.sidenavEmblem {
+    margin-top: 30px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.emblemCircle {
+    width: 150px;
+    height: 150px; 
+    background-color: #EEEEEE;
+    border-radius: 50%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.DeptIcon {
+    height: 70px;
+    width: auto;
+    max-width: 100%;
+}
+
+.DeptName {
+    margin-top: 10px;
+    font-size: 10px;
+    font-weight: 700;
+}

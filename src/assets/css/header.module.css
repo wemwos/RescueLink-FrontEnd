@@ -1,0 +1,52 @@
+.navbar {
+  display: flex;
+  justify-content: baseline;
+  padding: 10px 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navLink {
+  color: #ffffff !important; /* Override Bootstrap's default link color */
+  margin-right: 10px;
+}
+
+.logo {
+  width: 80px;
+  height: 40px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+
+.logoText {
+  font-size: 20px;
+  font-weight: 700;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+}
+
+
+.dropdownItem {
+  font-size: 14px !important;
+  padding: 8px 16px !important; /* Adjust padding for better spacing */
+}
+
+.dropdownItem:hover {
+  background-color: #6aa8fa !important;
+  color: #333333 !important; /* Change text color on hover */
+}
+
+
+
+.UserIcon {
+  height: 30px;   
+  padding-left: 8px;
+  width: auto;
+  max-width: 100%;
+  margin-right: 12px;
+}
+
+.userText {
+  font-size: 15px;
+  font-weight: 600;
+}
