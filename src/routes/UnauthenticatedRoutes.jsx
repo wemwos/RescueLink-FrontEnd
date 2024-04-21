@@ -6,7 +6,7 @@ function UnauthenticatedRoutes(props) {
         return !props.loggedIn
     }
     
-    return useAuth() ? <Outlet /> : <Navigate to={'/'} />
+    return useAuth() ? <Outlet /> : <Navigate to={'/login'} />
 
 }
 

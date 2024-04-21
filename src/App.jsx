@@ -6,7 +6,7 @@ import AdminRoutes from './routes/AdminRoutes';
 import UserRoutes from './routes/UserRoutes';
 import UnauthenticatedRoutes from './routes/UnauthenticatedRoutes';
 import NotFound from './pages/NotFound';
-import Login from './pages/login';
+import Login from './pages/Login';
 
 import Monitor from './pages/Monitor';
 import History from './pages/History';
@@ -38,7 +38,7 @@ function App() {
       <Routes>
         
         <Route element={<UnauthenticatedRoutes loggedIn={isLoggedIn}/>} >
-          <Route path="/" element={<Login />} />
+          
           {/* <Route path="/register" element={<Register />} /> */}
         </Route>
         
@@ -51,7 +51,7 @@ function App() {
           <Route path="/history" element={<History />} />
           <Route path="/records" element={<Records />} />
           <Route path="/reports" element={<Reports />} /> 
-          
+          <Route path="/login" element={<Login />} />
           {/* <Route path="/album/:index" element={<Album />} />
           <Route path="/" element={<MusicMP />} />
           <Route path="/player/:type/:index" element={<MusicPlayer />} />

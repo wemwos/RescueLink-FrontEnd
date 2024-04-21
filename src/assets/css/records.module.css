@@ -1,0 +1,52 @@
+
+
+.container {
+    background-color: #F8F8F8;
+    border-radius: 10px;
+    padding: 20px; 
+    margin: 20px; 
+    overflow: hidden;
+    width: 80vw; 
+    height: 82vh;
+  }
+
+
+  /* records.module.css */
+
+.tabNavItem {
+    font-family: Poppins;
+    color: #333; /* Default text color for tab nav items */
+    background-color: #fdfdfd; /* Default background color for tab nav items */
+    border: none; /* Remove borders */
+    border-radius: 4px; /* Add border radius */
+    padding: 10px 15px; /* Add padding */
+    margin-right: 10px; /* Add margin between tab nav items */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Add transition for smooth hover effect */
+  }
+  
+  .tabNavItem:hover,
+  .tabNavItem:focus {
+    color: #fff; /* Text color on hover/focus */
+    background-color: #4499C9; /* Background color on hover/focus */
+  }
+  
+  .tabNavActive {
+    color: #ffffff !important; /* Text color for active tab nav item */
+    background-color: #4499C9 !important; /* Background color for active tab nav item */
+    border: none; /* Remove borders */
+    border-radius: 4px; /* Add border radius */
+    padding: 10px 15px; /* Add padding */
+    margin-right: 10px; /* Add margin between tab nav items */
+  }
+  
+  
+  .tabPane {
+    font-family: Poppins, sans-serif;
+    padding: 20px; /* Add padding to tab pane */
+    background-color: #f5f5f5; /* Background color for tab pane */
+    border-radius: 4px; /* Add border radius */
+    margin-top: 10px; /* Add margin to separate tab panes */
+  }
+  
+ 
+  

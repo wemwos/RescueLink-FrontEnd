@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+.container {
+    background: linear-gradient(100deg, #4992d6, #92d6fd, #cfe5fa);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    border: 1px solid;
+    height: 100vh;
+    font-family: 'Poppins';
+}
+  
+.LogoContainer,
+.LoginContainer {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+  
+
+.LoginH {
+    text-align: left;
+    font-weight: 700;
+}
+.formControl {
+    margin-bottom: 20px;
+}
+  
+.formControl label {
+    font-size: 14px;
+    padding-left: 10px;
+    margin-bottom: 3px;
+}
+.inputField {
+    width: 25vw;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+    font-family: 'Poppins'; 
+}
+  
+.inputField:focus {
+    border-color: #4499C9;
+}
+  
+.passwordContainer {
+    position: relative;
+    margin-bottom: 0; /* Remove margin bottom */
+}
+  
+.passwordInput {
+    padding-right: 40px;
+}
+  
+.passwordToggle {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.forgotPassword {
+    margin-top: 0; /* Adjusted margin top */
+}
+  
+.submitButton {
+    padding: 10px 20px;
+    width: 25vw;
+    background-color: #4499C9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: 'Poppins';
+}
+  
+.submitButton:hover {
+    background-color: #357a9e;
+}

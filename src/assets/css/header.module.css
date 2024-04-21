@@ -19,6 +19,7 @@
 
 
 .logoText {
+  font-family: Poppins;
   font-size: 20px;
   font-weight: 700;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
@@ -27,6 +28,7 @@
 
 
 .dropdownItem {
+  font-family: Poppins;
   font-size: 14px !important;
   padding: 8px 16px !important; /* Adjust padding for better spacing */
 }
@@ -48,4 +50,6 @@
 .userText {
   font-size: 15px;
   font-weight: 600;
+  font-family: Poppins;
+
 }

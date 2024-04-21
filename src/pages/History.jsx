@@ -44,39 +44,39 @@ function History() {
   const videoClips = [
     {
       id: 1,
-      location: "Maharlika Hwy",
-      date: "April 12, 2024",
-      time: "10:00 AM"
+      location: "",
+      date: "",
+      time: ""
     },
     {
       id: 2,
-      location: "Pawing",
-      date: "April 29, 2024",
-      time: "3:30 PM"
+      location: "",
+      date: "",
+      time: ""
     },
     {
       id: 3,
-      location: "Barayong",
-      date: "April 2, 2024",
-      time: "3:30 PM"
+      location: "",
+      date: "",
+      time: ""
     },
     {
       id: 4,
-      location: "Palo",
-      date: "April 16, 2024",
-      time: "3:30 PM"
+      location: "",
+      date: "",
+      time: ""
     },
     {
       id: 5,
-      location: "Valo",
-      date: "April 21, 2024",
-      time: "3:30 PM"
+      location: "",
+      date: "",
+      time: ""
     },
     {
       id: 6,
-      location: "Zalo",
-      date: "April 11, 2024",
-      time: "3:30 PM"
+      location: "",
+      date: "",
+      time: ""
     },
     // Add more dummy data as needed
   ];
@@ -110,7 +110,7 @@ function History() {
               </video>
               {/* Details for each clip */}
               <div className={styles.details}>
-                <p><strong>Location:</strong> {clip.location}</p>
+                <h5>Location:{clip.location}</h5>
                 <p><strong>Date:</strong> {clip.date}</p>
                 <p><strong>Time:</strong> {clip.time}</p>
               </div>

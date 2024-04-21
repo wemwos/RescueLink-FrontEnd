@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faDesktop, faHistory, faFolder, faChartBar } from '@fortawesome/free-solid-svg-icons';
+import { faDesktop, faHistory,  faFolder, faChartSimple } from '@fortawesome/free-solid-svg-icons';
 import styles from '../assets/css/sidenav.module.css';
 import DeptIcon from '../assets/img/PNP.png';
 
@@ -19,7 +19,7 @@ function SideNav() {
         <CustomNavLink to="/monitor" icon={faDesktop}>Monitor</CustomNavLink>
         <CustomNavLink to="/history" icon={faHistory}>History</CustomNavLink>
         <CustomNavLink to="/records" icon={faFolder}>Records</CustomNavLink>
-        <CustomNavLink to="/reports" icon={faChartBar}>Reports</CustomNavLink>
+        <CustomNavLink to="/reports" icon={faChartSimple}>Reports</CustomNavLink>
       </div>
     </div>
   );
@@ -32,11 +32,12 @@ function CustomNavLink({ to, icon, children }) {
   };
 
   return (
-    <NavLink to={to} className={styles.navButton} style={buttonStyle} activeClassName={styles.activeNavButton}>
+    <NavLink to={to} className={styles.navButton} style={buttonStyle} activeclassname={styles.activeNavButton}>
       <FontAwesomeIcon icon={icon} className={styles.navButtonIcon} />
       {children}
     </NavLink>
   );
 }
+
 
 export default SideNav;
