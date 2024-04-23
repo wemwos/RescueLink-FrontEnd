@@ -7,6 +7,7 @@ import Tab from 'react-bootstrap/Tab';
 import Nav from 'react-bootstrap/Nav';
 import UserLogs from '../Components/UserLogs'; 
 import ResponseLogs from '../Components/ResponseLogs';
+import AlertLogs from '../Components/AlertLogs';
 
 function Records() {
   const [activeTab, setActiveTab] = useState('userLogs');
@@ -37,7 +38,7 @@ function Records() {
               </Tab.Pane>
               <Tab.Pane eventKey="alertLogs" className={styles.tabPane}>
                 {/* Render content for Alert Notification Logs */}
-                <div>Alert Logs </div>
+                <AlertLogs />
               </Tab.Pane>
               <Tab.Pane eventKey="responseLogs" className={styles.tabPane}>
                 <ResponseLogs />
